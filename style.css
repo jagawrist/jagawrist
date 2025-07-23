@@ -1,0 +1,140 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #111;
+    color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('https://via.placeholder.com/1400x800') no-repeat center center/cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: transparent;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: gold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 5em;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: gold;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    padding: 0.8em 2em;
+    margin: 0.5em;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+}
+
+/* Intro Section */
+.intro {
+    padding: 4em 2em;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: gold;
+}
+
+/* Featured Section */
+.featured {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: gold;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #222;
+    padding: 1em;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.product-card h3 {
+    color: gold;
+    margin: 0.5em 0 0.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #000;
+    color: #888;
+}
